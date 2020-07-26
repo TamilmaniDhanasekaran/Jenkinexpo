@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Sathya Maven Automation Suite - Smoke">
+
+	
+	<groups>
+  	<run>
+  		<include name="smoke"></include>
+ 		
+  	</run>
+ 	</groups>
+  
+  <listeners>
+  <listener class-name="fSathyaExtentReportListener.SathyaTestNGListener"></listener>
+  <listener class-name="fSathyaExtentReportListener.SathyaExtentReport"></listener>
+  <listener class-name="fSathyaExtentReportListener.SathyaRuntimeLogic"></listener>
+  </listeners>
+  
+  
+  
+
+  <test name="Sathya Maven Automation Test">
+    <classes>
+      <class name="aSathyaTestCases.SamsungTv1Test"/>
+      <class name="aSathyaTestCases.HomePageTest"/>
+      <class name="aSathyaTestCases.UltraHDTvTest"/>
+      <class name="aSathyaTestCases.LoginPageTest"/>
+      <class name="aSathyaTestCases.TelevisionPageTest"/>
+      <class name="aSathyaTestCases.SamsungTv2Test"/>
+      <class name="aSathyaTestCases.SamsungTv3Test"/>
+      <class name="aSathyaTestCases.SamsungTv4Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

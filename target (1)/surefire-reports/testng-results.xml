@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="15" total="20" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-23T12:01:44 IST" name="Sathya Maven Automation Suite - Smoke" finished-at="2020-04-23T12:09:09 IST" duration-ms="444504">
+    <groups>
+      <group name="smoke">
+        <method signature="SamsungTv1Test.writeTv1Data()[pri:2, instance:aSathyaTestCases.SamsungTv1Test@6a01e23]" name="writeTv1Data" class="aSathyaTestCases.SamsungTv1Test"/>
+        <method signature="SamsungTv2Test.writeTv2Data()[pri:2, instance:aSathyaTestCases.SamsungTv2Test@5a955565]" name="writeTv2Data" class="aSathyaTestCases.SamsungTv2Test"/>
+        <method signature="SamsungTv3Test.writeTv3Data()[pri:2, instance:aSathyaTestCases.SamsungTv3Test@6293abcc]" name="writeTv3Data" class="aSathyaTestCases.SamsungTv3Test"/>
+        <method signature="SamsungTv4Test.entry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:aSathyaTestCases.SamsungTv4Test@7995092a]" name="entry" class="aSathyaTestCases.SamsungTv4Test"/>
+        <method signature="SamsungTv4Test.writeTv4Data()[pri:2, instance:aSathyaTestCases.SamsungTv4Test@7995092a]" name="writeTv4Data" class="aSathyaTestCases.SamsungTv4Test"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="SamsungTv4Test.entry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:aSathyaTestCases.SamsungTv4Test@7995092a]" name="entry" class="aSathyaTestCases.SamsungTv4Test"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2020-04-23T12:01:44 IST" name="Sathya Maven Automation Test" finished-at="2020-04-23T12:09:09 IST" duration-ms="444504">
+      <class name="aSathyaTestCases.SamsungTv2Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:aSathyaTestCases.SamsungTv2Test@5a955565]" started-at="2020-04-23T12:04:09 IST" name="setUp" finished-at="2020-04-23T12:05:12 IST" duration-ms="62684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="writeTv2Data()[pri:2, instance:aSathyaTestCases.SamsungTv2Test@5a955565]" started-at="2020-04-23T12:05:12 IST" name="writeTv2Data" finished-at="2020-04-23T12:05:23 IST" duration-ms="11153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeTv2Data -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:aSathyaTestCases.SamsungTv2Test@5a955565]" started-at="2020-04-23T12:05:23 IST" name="tearDown" finished-at="2020-04-23T12:05:25 IST" duration-ms="1373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aSathyaTestCases.SamsungTv2Test -->
+      <class name="aSathyaTestCases.SamsungTv1Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:aSathyaTestCases.SamsungTv1Test@6a01e23]" started-at="2020-04-23T12:01:45 IST" name="setUp" finished-at="2020-04-23T12:03:58 IST" duration-ms="133577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="writeTv1Data()[pri:2, instance:aSathyaTestCases.SamsungTv1Test@6a01e23]" started-at="2020-04-23T12:03:58 IST" name="writeTv1Data" finished-at="2020-04-23T12:04:08 IST" duration-ms="9713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeTv1Data -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:aSathyaTestCases.SamsungTv1Test@6a01e23]" started-at="2020-04-23T12:04:08 IST" name="tearDown" finished-at="2020-04-23T12:04:09 IST" duration-ms="1478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aSathyaTestCases.SamsungTv1Test -->
+      <class name="aSathyaTestCases.SamsungTv4Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:aSathyaTestCases.SamsungTv4Test@7995092a]" started-at="2020-04-23T12:06:32 IST" name="setUp" finished-at="2020-04-23T12:07:35 IST" duration-ms="63566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="writeTv4Data()[pri:2, instance:aSathyaTestCases.SamsungTv4Test@7995092a]" started-at="2020-04-23T12:07:35 IST" name="writeTv4Data" finished-at="2020-04-23T12:07:41 IST" duration-ms="5954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeTv4Data -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:aSathyaTestCases.SamsungTv4Test@7995092a]" started-at="2020-04-23T12:07:41 IST" name="tearDown" finished-at="2020-04-23T12:07:43 IST" duration-ms="2079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:aSathyaTestCases.SamsungTv4Test@7995092a]" started-at="2020-04-23T12:07:45 IST" name="setUp" finished-at="2020-04-23T12:08:46 IST" duration-ms="60903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="entry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:aSathyaTestCases.SamsungTv4Test@7995092a]" started-at="2020-04-23T12:08:46 IST" name="entry" data-provider="getSathyaTestData" finished-at="2020-04-23T12:09:08 IST" duration-ms="22582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tnagar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[600096]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[arunkumarece1291@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9941418528]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:aSathyaTestCases.SamsungTv4Test@7995092a]" started-at="2020-04-23T12:09:08 IST" name="tearDown" finished-at="2020-04-23T12:09:09 IST" duration-ms="906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aSathyaTestCases.SamsungTv4Test -->
+      <class name="aSathyaTestCases.SamsungTv3Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:aSathyaTestCases.SamsungTv3Test@6293abcc]" started-at="2020-04-23T12:05:25 IST" name="setUp" finished-at="2020-04-23T12:06:14 IST" duration-ms="49142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="writeTv3Data()[pri:2, instance:aSathyaTestCases.SamsungTv3Test@6293abcc]" started-at="2020-04-23T12:06:14 IST" name="writeTv3Data" finished-at="2020-04-23T12:06:31 IST" duration-ms="16861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeTv3Data -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:aSathyaTestCases.SamsungTv3Test@6293abcc]" started-at="2020-04-23T12:06:31 IST" name="tearDown" finished-at="2020-04-23T12:06:32 IST" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aSathyaTestCases.SamsungTv3Test -->
+    </test> <!-- Sathya Maven Automation Test -->
+  </suite> <!-- Sathya Maven Automation Suite - Smoke -->
+</testng-results>
